@@ -1,0 +1,14 @@
+{
+  "name": "hasura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "hasura-cli": "^2.0.5"
+  },
+  "scripts": {
+    "init-hasura": "hasura init hasura",
+    "status": "hasura --project hasura migrate status",
+    "console": "hasura --project hasura console"
+  }
+}
