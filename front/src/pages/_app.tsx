@@ -1,11 +1,5 @@
-import {
-  ApolloClient,
-  ApolloProvider,
-  HttpLink,
-  InMemoryCache,
-} from '@apollo/client'
+import { ApolloClient, ApolloProvider, HttpLink, InMemoryCache } from '@apollo/client'
 import { AppProps } from 'next/app'
-import '@/styles/globals.css'
 import { ChakraProvider } from '@chakra-ui/react'
 
 import { extendTheme } from '@chakra-ui/react'
